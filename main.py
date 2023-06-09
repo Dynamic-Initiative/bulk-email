@@ -37,7 +37,7 @@ for email in emails:
 
   msg['From'] = "info@dynamicini.org"
   msg['To'] = email["Emailiniz nedir?"]
-  msg['Subject'] = "Dinamik Girişim Python Atölyesi İkinci Ders"
+  msg['Subject'] = "Dinamik Girişim Python Atölyesi Üçüncü Ders"
 
   msg.attach(MIMEText(html, 'html'))
 
