@@ -11,7 +11,7 @@ load_dotenv()
 
 emails = []
 
-with open("./test.json", "r") as f:
+with open("./mails.json", "r") as f:
   emails = json.load(f)
 
 s = smtplib.SMTP(host = 'dynamicini.org', port = 587)
