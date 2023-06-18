@@ -1,0 +1,77 @@
+[
+  {
+    "Adınız nedir?": "Mustafa Salih",
+    "Soyadınız nedir?": "Arslan",
+    "Emailiniz nedir?": "musliharslan@gmail.com"
+  },
+  {
+    "Timestamp": "2023/06/03 1:11:12 PM GMT+3",
+    "Adınız nedir?": "Ahmet Eren",
+    "Soyadınız nedir?": "Akbıyık",
+    "Telefon numaranız nedir?": "05056788290",
+    "Emailiniz nedir?": "rabia19062016@gmail.com",
+    "Yaşınız nedir?": 11,
+    "Eğitimde görmek istediğiniz konular var mıdır? (Örn: yapay zeka ile görüntü işleme)": "",
+    "Eklemek istedikleriniz var mıdır?": ""
+  },
+  {
+    "Timestamp": "2023/06/03 1:40:35 PM GMT+3",
+    "Adınız nedir?": "Muhammed Göktuğ",
+    "Soyadınız nedir?": "Bekret",
+    "Telefon numaranız nedir?": "05544431625",
+    "Emailiniz nedir?": "Sultanbekret71@gmail.com",
+    "Yaşınız nedir?": 11,
+    "Eğitimde görmek istediğiniz konular var mıdır? (Örn: yapay zeka ile görüntü işleme)": "Yazılım kodlama",
+    "Eklemek istedikleriniz var mıdır?": "Eğitimleri takip etmek ve bilgilenmek istetim"
+  },
+  {
+    "Timestamp": "2023/06/03 2:19:25 PM GMT+3",
+    "Adınız nedir?": "Muhammed Tolga",
+    "Soyadınız nedir?": "Söğüt",
+    "Telefon numaranız nedir?": "0505 807 99 36",
+    "Emailiniz nedir?": "mtolgasogut@hotmail.com",
+    "Yaşınız nedir?": 11,
+    "Eğitimde görmek istediğiniz konular var mıdır? (Örn: yapay zeka ile görüntü işleme)": "Kendi programımı oluşturmak birde yazılım türlerini öğrenmek istiyorum (javascript vb.)",
+    "Eklemek istedikleriniz var mıdır?": ""
+  },
+  {
+    "Timestamp": "2023/06/03 5:26:46 PM GMT+3",
+    "Adınız nedir?": "Kayra",
+    "Soyadınız nedir?": "Akdağ",
+    "Telefon numaranız nedir?": "05079404310",
+    "Emailiniz nedir?": "zelihamrtakdag@gmail.com",
+    "Yaşınız nedir?": 11,
+    "Eğitimde görmek istediğiniz konular var mıdır? (Örn: yapay zeka ile görüntü işleme)": "Kodlama",
+    "Eklemek istedikleriniz var mıdır?": "Hayır"
+  },
+  {
+    "Timestamp": "2023/06/05 10:37:20 PM GMT+3",
+    "Adınız nedir?": "Abid",
+    "Soyadınız nedir?": "Albayrak",
+    "Telefon numaranız nedir?": 5323334778,
+    "Emailiniz nedir?": "cnnabid@gmail.com",
+    "Yaşınız nedir?": 9,
+    "Eğitimde görmek istediğiniz konular var mıdır? (Örn: yapay zeka ile görüntü işleme)": "yapay zeka ile görüntü işleme",
+    "Eklemek istedikleriniz var mıdır?": ""
+  },
+  {
+    "Timestamp": "2023/06/07 7:20:33 PM GMT+3",
+    "Adınız nedir?": "Ali Emir",
+    "Soyadınız nedir?": "Kaplan",
+    "Telefon numaranız nedir?": "05345254684",
+    "Emailiniz nedir?": "aysekaplan1241@gmail.com",
+    "Yaşınız nedir?": 11,
+    "Eğitimde görmek istediğiniz konular var mıdır? (Örn: yapay zeka ile görüntü işleme)": "yapay zeka",
+    "Eklemek istedikleriniz var mıdır?": ""
+  },
+  {
+    "Adınız nedir?": "Ahmet Sencer",
+    "Soyadınız nedir?": "Bozkurt",
+    "Emailiniz nedir?": "sencerbozkurt2010@gmail.com"
+  },
+  {
+    "Adınız nedir?": "Mehmet Kutay",
+    "Soyadınız nedir?": "Bozkurt",
+    "Emailiniz nedir?": "mkutaybzkrt01101011@gmail.com"
+  }
+]
