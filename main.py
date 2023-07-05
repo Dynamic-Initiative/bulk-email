@@ -6,17 +6,12 @@ from string import Template
 import json
 from dotenv import load_dotenv
 import os
-from os.path import basename
-from email.mime.application import MIMEApplication
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.utils import COMMASPACE, formatdate
 
 load_dotenv()
 
 emails = []
 
-with open("./cert.json", "r") as f:
+with open("./mails.json", "r") as f:
   emails = json.load(f)
 
 s = smtplib.SMTP(host = 'dynamicini.org', port = 587)
@@ -32,17 +27,9 @@ for email in emails:
 
   msg['From'] = "info@dynamicini.org"
   msg['To'] = email["Emailiniz nedir?"]
-  msg['Subject'] = "Dinamik Girişim Python Atölyesi Sertifika"
+  msg['Subject'] = "Dinamik Girişim Web Programlama Atölyesi"
 
-  ff = "certs/" + to_name + ".pdf"
   msg.attach(MIMEText(html, 'html'))
-  with open(ff, "rb") as fil:
-    part = MIMEApplication(
-        fil.read(),
-        Name = basename(ff)
-    )
-  part['Content-Disposition'] = 'attachment; filename="{}"'.format(basename(ff))
-  msg.attach(part)
 
   s.send_message(msg)
 
