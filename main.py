@@ -11,7 +11,7 @@ load_dotenv()
 
 emails = []
 
-with open("./mails.json", "r") as f:
+with open("./mail2.json", "r") as f:
   emails = json.load(f)
 
 s = smtplib.SMTP(host = 'dynamicini.org', port = 587)
@@ -27,7 +27,7 @@ for email in emails:
 
   msg['From'] = "info@dynamicini.org"
   msg['To'] = email["Emailiniz nedir?"]
-  msg['Subject'] = "Dinamik Girişim Web Programlama Atölyesi"
+  msg['Subject'] = "Dinamik Girişim Web Programlama Atölyesi Birinci Ders"
 
   msg.attach(MIMEText(html, 'html'))
 
